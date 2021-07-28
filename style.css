@@ -61,6 +61,11 @@ div img{
 .banner-line{
     font-size: 40px;
 }
+.contact-line{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
 .first-side{
     margin-top: 140px;
 }
@@ -108,14 +113,58 @@ div img{
     border-radius: 15px;
    
 }
-
-.section-4{
-    margin-bottom: 50px;
-}
 .counter{
     margin: auto;
     padding: 30px 0;
     text-align: center;
     }
 
-    
+.section-5{
+height: 650px;
+background-color:#f6f9f9;
+}
+.section-5 h1{
+text-align: center;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background: hotpink;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 9px gray;
+    text-align: center;
+}
+.footer{
+    padding-top: 10px;
+    height: 150px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer p{
+    text-align: center;
+}
+
+.underline{
+    position: relative;
+    display: inline-block;
+}
+.underline::after{
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background-color: tomato;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-70px);
+}
+.contact-us{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 350px;
+    text-transform: uppercase;
+}
